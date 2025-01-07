@@ -40,4 +40,12 @@ An AutoHotKey(AHK) script to map Alt+IJKL to arrow key (↑,←,↓,→) with ot
 #!k::Send("#{Down}")    ; Windows+Alt+K -> Windows+向下
 #!j::Send("#{Left}")    ; Windows+Alt+J -> Windows+向左
 #!l::Send("#{Right}")   ; Windows+Alt+L -> Windows+向右
+
+; Define Alt+U to Home, Alt+O to End.
+!u::Send("{Home}")
+!o::Send("{End}")
+
+; Define Alt+Shift+U/O to Shift+Home/End.
++!u::Send("+{Home}")
++!o::Send("+{End}")
 ```
