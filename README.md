@@ -1,8 +1,12 @@
 # Alt-IJKL
 An AutoHotKey(AHK) script to map Alt+IJKL to arrow key (↑,←,↓,→) with other convenient features.
 
-因為加上其他組合鍵（比如説額外再按下 Control，變成 Ctl+Alt+J）後，AHK 會當作全新的組合情形來判斷，所以每種組合都要詳細定義行爲。 
+因為加上其他組合鍵（比如説額外再按下 Control，變成 Ctl+Alt+J）後，AHK 會當作全新的組合情形來判斷，所以每種組合都要詳細定義行爲。
 
+# How to use
+安裝 AutoHotKey，使用以下 script，執行！
+
+# The script
 ```
 #Requires AutoHotkey v2.0
 
