@@ -66,3 +66,11 @@ An AutoHotKey(AHK) script to map Alt+IJKL to arrow key (↑,←,↓,→) with ot
 +!u::Send("+{Home}")
 +!o::Send("+{End}")
 ```
+
+# How to run at startup
+把這個 AutoHotKey Script 檔案丟到啟動資料夾即可。
+
+啟動資料夾的前往方法供參：
+- 開啟執行（快捷鍵 win+r）
+- 輸入 `shell:startup` 並確定
+- 抵達！
